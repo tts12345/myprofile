@@ -1,26 +1,71 @@
+import Image from "next/image";
+import Aos from "aos"; 
 
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-16 mx-5">
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white p-6 shadow-lg rounded-lg">
-            <h3 className="text-2xl text-blue-600 font-semibold">Project 1</h3>
-            <p className="mt-2 text-red-600">Student Management System</p>
-          </div>
-          <div className="bg-white p-6 shadow-lg rounded-lg">
-            <h3 className="text-2xl  text-blue-600 font-semibold">Project 2</h3>
-            <p className="mt-2  text-red-600">Library Management System</p>
-          </div>
-          <div className="bg-white p-6 shadow-lg rounded-lg">
-            <h3 className="text-2xl   text-blue-600 font-semibold">Project 3</h3>
-            <p className="mt-2  text-red-600">Hotel Management System</p>
-          </div>
+    <section id="projects" className="bg-black">
+      <div className="max-width-full min-h-screen mx-auto m-0 bg-black">
+
+        <div className="text-center bg-black py-9">
+
+          <h3 data-aos="fade-up" className="text-5xl  lg:text-6xl font-bold">Projects</h3>
+          <p data-aos="fade-down" className="text-4xl text-gray-400 lg:text-5xl mt-3">Simplifying  Operations</p>
         </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 mx-4 my-10">
+
+          <div data-aos="fade-up-right" className="bg-black shadow-lg rounded-lg">
+            <h3 className="text-3xl text-center text-orange-600 font-semibold py-6 lg:text-4xl"></h3>
+            <p className="mt-2 text-white"></p>
+            <Image src="/images/education.svg" height={200} width={200} className="h-60 min-w-full overflow-auto px-1 pb-5" alt="image discription" />
+            <p className="text-lg text-center text-gray-500 px-1 pt-11 pb-11">
+              A School Management System 
+              organize student data.It stores information
+              like grades,attendance,and personal details.
+              Teachers can use it to track student progress
+              and performance.Administrators can manage enrollments,
+              schedules and communication.This system improves efficiency
+              and accessibility of related data.
+            </p>
+          </div>
+
+          <div data-aos="fade-up-left" className="bg-black shadow-lg rounded-lg">
+            <h3 className="text-3xl text-center text-orange-600 font-semibold py-6 lg:text-4xl"></h3>
+            <p className="mt-2 text-white"></p>
+            <Image src="/images/library.svg" height={200} width={200} className="h-60 min-w-full overflow-auto px-1 pb-5" alt="image discription" />
+            <p className="text-lg text-center text-gray-500 text- px-1 pt-11 pb-11 ">
+              A Library Management System helps organize and
+              track books and resources.It records information
+              such as titles,authors and due dates.Users can
+              borrow and return books easily through the system.
+              Librarians can monitor overdue items and manage inventory.
+              This system streamlines library operations and improves efficiency.
+            </p>
+
+          </div>
+
+          <div data-aos="fade-down-left" className="bg-black shadow-lg rounded-lg">
+            <h3 className="text-3xl text-center text-orange-600 font-semibold py-6 lg:text-4xl"></h3>
+            <p className="mt-2 text-white"></p>
+            <Image src="/images/travel.svg" height={200} width={200} className="h-60 min-w-full overflow-auto px-1 pb-5" alt="image discription" />
+            <p className="text-lg text-center text-gray-500 px-1 pt-11 pb-11 ">
+              A Hotel Management System handles reservations
+              and customers check-ins. It tracks room availability
+              and manages bookings efficiently. Staff can update
+              customers details,billing and payment.It helps manage
+              services like housekeeping and room service. The system
+              improves overall hotel operations and customer satisfaction.
+            </p>
+
+          </div>
+
+
+        </div>
+
       </div>
-    </section>
+
+    </section >
   );
 };
 
