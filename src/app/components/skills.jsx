@@ -12,8 +12,8 @@ const Skills = () => {
 
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 m-10 p-7">
-          <div data-aos="fade-up" className="bg-black m-4 p-4 border border-cyan-50 border-t-0 hover:border-orange-400 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10 p-7">
+          <div data-aos="fade-up" className="bg-black mt-8 p-4 border border-cyan-50 border-t-0 hover:border-orange-400 ">
             <h3 className="text-left text-xl text-orange-500 font-bold ml-4 pt-2 uppercase">Html</h3>
             <div className="flex justify-center mb-3">
               <Image src="/images/ht2.png" height={200} width={200} className="h-20 w-20  overflow-auto  " alt="image discription" />
@@ -25,7 +25,7 @@ const Skills = () => {
               HTML documents can embed multimedia like videos and audio.
             </p>
           </div>
-          <div data-aos="fade-down" className="bg-black m-4 p-4 shadow-lg border  border-cyan-50 border-t-0  hover:border-orange-400 ">
+          <div data-aos="fade-down" className="bg-black mt-8 p-4 shadow-lg border  border-cyan-50 border-t-0  hover:border-orange-400 ">
             <h3 className="text-left text-xl text-orange-500 font-bold ml-4 pt-2 uppercase">Css</h3>
             <div className="flex justify-center mb-3">
 
@@ -39,7 +39,7 @@ const Skills = () => {
               CSS can be written in an external and internal file.
             </p>
           </div>
-          <div data-aos="fade-up-right" className="bg-black m-4 p-4 shadow-lg border border-cyan-50 border-t-0  hover:border-orange-400 items-center">
+          <div data-aos="fade-up-right" className="bg-black mt-8 p-4 shadow-lg border border-cyan-50 border-t-0  hover:border-orange-400 items-center">
             <h3 className="text-left text-xl text-orange-500 font-bold ml-4 pt-2 uppercase">js</h3>
             <div className="flex justify-center mb-3">
               <Image src="/images/jp1.png" height={200} width={200} className="h-20 w-20  overflow-auto  " alt="image discription" />
@@ -52,7 +52,7 @@ const Skills = () => {
               It supports functions, variables, loops, and conditional statements.
             </p>
           </div>
-          <div data-aos="fade-down-left" className="bg-black m-4 p-4  shadow-lg border  border-cyan-50 border-t-0  hover:border-orange-400 ">
+          <div data-aos="fade-down-left" className="bg-black mt-8 p-4  shadow-lg border  border-cyan-50 border-t-0  hover:border-orange-400 ">
             <h3 className="text-left text-xl font-bold text-orange-500 ml-4 pt-2 uppercase">React</h3>
             <div className="flex justify-center mb-3">
               <Image src="/images/rt1.png" height={200} width={200} className="h-20 w-20  overflow-auto " alt="image discription" />

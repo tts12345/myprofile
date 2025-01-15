@@ -5,14 +5,14 @@ function Education() {
   return (
     <div>
       <div className="container max-auto min-h-screen -mt-10 bg-black">
-        <div className="text-center m-10 text-5xl lg:text-6xl">
+        <div className="text-center mt-10 text-5xl lg:text-6xl">
           <h3 className="font-bold">Education</h3>
         </div>
 
         <div className="grid grid-col md:grid-cols-2 lg:grid-cols-3 gap-5">
 
 
-          <div  data-aos="fade-up" className="flex flex-row justify-center items-center m-10 p-8 shadow-md shadow-gray-400 rounded-lg hover:shadow-orange-600 duration-500">
+          <div  data-aos="fade-up" className="flex flex-row justify-center items-center mt-10 mx-2 p-4 shadow-md shadow-gray-400 rounded-lg hover:shadow-orange-600 duration-500">
             <div className="">
               <Image src="/images/brab1.jpg" height={200} width={200} alt="picture logo" className=" h-24 w-24 rounded-full p-4" />
             </div>
@@ -24,7 +24,7 @@ function Education() {
           </div>
 
 
-          <div data-aos="fade-down" className="flex flex-row justify-center items-center m-10 p-8 shadow-md shadow-gray-400 rounded-lg hover:shadow-orange-600 duration-500">
+          <div data-aos="fade-down" className="flex flex-row justify-center items-center mt-10 mx-2 p-4 shadow-md shadow-gray-400 rounded-lg hover:shadow-orange-600 duration-500">
 
             <div className="">
 
@@ -38,7 +38,7 @@ function Education() {
 
             </div>
           </div>
-          <div data-aos="fade-right" className="flex flex-row justify-center items-center m-10 p-8 shadow-md shadow-gray-400 rounded-lg hover:shadow-orange-600 duration-500">
+          <div data-aos="fade-right" className="flex flex-row justify-center items-center mt-10 mx-2 p-8 shadow-md shadow-gray-400 rounded-lg hover:shadow-orange-600 duration-500">
 
             <div className="">
 
@@ -50,7 +50,7 @@ function Education() {
               <p className="text-sm text-gray-400">2022 </p>
             </div>
           </div>
-          <div data-aos="fade-left" className="flex flex-row justify-center m-10 p-8 shadow-md shadow-gray-400 rounded-lg hover:shadow-orange-600 duration-500">
+          <div data-aos="fade-left" className="flex flex-row justify-center mt-10 mx-2 p-8 shadow-md shadow-gray-400 rounded-lg hover:shadow-orange-600 duration-500">
 
             <div className="">
 
@@ -64,7 +64,7 @@ function Education() {
 
             </div>
           </div>
-          <div data-aos="fade-up-right" className="flex flex-row justify-center m-10 p-8 shadow-md shadow-gray-400 rounded-lg hover:shadow-orange-600 duration-500">
+          <div data-aos="fade-up-right" className="flex flex-row justify-center mt-10 mx-2 p-8 shadow-md shadow-gray-400 rounded-lg hover:shadow-orange-600 duration-500">
 
             <div className="">
 
