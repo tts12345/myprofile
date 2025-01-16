@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Aos from "aos"; 
+import Link from "next/link";
 
 
 const Projects = () => {
@@ -9,8 +10,8 @@ const Projects = () => {
 
         <div className="text-center bg-black py-9">
 
-          <h3 data-aos="fade-up" className="text-5xl  lg:text-6xl font-bold">Projects</h3>
-          <p data-aos="fade-down" className="text-4xl text-gray-400 lg:text-5xl mt-3">Simplifying  Operations</p>
+          <h3 data-aos="fade-up" className="text-5xl lg:text-6xl font-bold">Projects</h3>
+          <p data-aos="fade-down" className="text-4xl text-gray-400 lg:text-5xl">Simplifying  Operations</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 mx-4 my-10">
