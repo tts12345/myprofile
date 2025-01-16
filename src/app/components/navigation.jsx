@@ -14,7 +14,7 @@ function Navigation() {
                             <div className="mx-3 py-3">
                                 <Image src="/images/ph4.jpg"
                                     height={50} width={70}
-                                    className="mx-5 shadow-xl opacity-65 bg-black rounded-full p-0  shadow-[#202314]" alt="image discription " />
+                                    className="mx-5 shadow-sm opacity-65 bg-black rounded-full p-0  shadow-[#202314]" alt="image discription " />
                             </div>
                             <div className="flex flex-col py-6 -mx-1  ">
                                 <h3 className="text-xl text-center font-bold italic bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text ">Prakash Kumar</h3>
