@@ -6,7 +6,7 @@ function Navigation() {
             <header>
                 <section className="bg-black -mb-5">
 
-                    <div className="w-full h-[135px] mx-auto">
+                    <div className="container h-[135px] mx-auto">
 
                         
 

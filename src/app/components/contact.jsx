@@ -14,8 +14,8 @@ const Contact = () => {
     });
   }, []);
   return (
-    <section id="contact" className="bg-black -mt-12">
-      <div className="container max-auto min-h-screen  bg-black">
+    <section id="contact" className="bg-black -mt-12 border border-white">
+      <div className="container mx-auto min-h-screen items-center bg-black">
         <div className="text-center mt-12 py-14 text-5xl lg:text-6xl">
           <h3 className="font-bold">Contact Us</h3>
         </div>

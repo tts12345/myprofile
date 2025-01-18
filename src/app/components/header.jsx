@@ -5,7 +5,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <header className=" bg-black text-white mt-1 " >
-      <div className="container  mx-auto  w-full">
+      <div className="container mx-auto">
         <div className="flex flex-row  lg:flex-row-reverse w-full  ">
           <div className="mx-2 pt-1">
             <Image src="/images/ph1.jpg"

@@ -4,7 +4,7 @@ function Technology() {
     return (
         <div>
             <section className="bg-black -mt-0">
-                <div className="bg-black max-auto min-h-screen max-w-full py-5">
+                <div className="container mx-auto min-h-screen py-5 items-center">
                     <div className="m-3 grid grid-cols-1 md:grid-cols-2 gap-7">
                         <div className="font-bold">
                             <h3 className="text-orange-500 text-5xl mb-3 px-2 py-8 lg:text-6xl">Technology</h3>
