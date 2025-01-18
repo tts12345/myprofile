@@ -6,7 +6,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <section id="projects" className="bg-black">
-      <div className="container min-h-screen mx-auto items-center">
+      <div className="container h-auto mx-auto items-center">
 
         <div className="text-center bg-black py-9">
 

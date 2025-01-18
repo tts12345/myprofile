@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section id="skills" className="bg-black -mt-10 py-10">
 
-      <div className="container mx-auto min-h-screen">
+      <div className="container mx-auto h-auto">
         <div className="py-6 text-center">
           <h2 data-aos="fade-up" className="text-5xl lg:text-6xl font-bold py-6">Skills</h2>
           <p data-aos="fade-down" className="text-gray-400 text-3xl">Involves knowing <br />

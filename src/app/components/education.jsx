@@ -5,7 +5,7 @@ function Education() {
   return (
     <div>
       <section className="bg-black">
-        <div className="container mx-auto min-h-screen">
+        <div className="container mx-auto h-auto">
           <div className="text-center py-10 text-5xl lg:text-6xl">
             <h3 className="font-bold">Education</h3>
           </div>
